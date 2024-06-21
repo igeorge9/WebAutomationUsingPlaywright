@@ -19,6 +19,7 @@ test('Handle Checkboxes', async({page})=>{
     // const thursdayCheckbox = await page.locator("//input[@id='thursday' and @type='checkbox']")
     // await expect(sundayCheckbox.isChecked()).toBeFalsy();
 
+    
     // Select multiple checkboxes
 
     const checkboxesLocators =['#wednesday','#saturday','#thursday'];
